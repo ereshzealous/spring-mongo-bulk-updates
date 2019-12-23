@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: mongo-bulk-upload
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 9012
+
+mongodb:
+  local:
+    host: localhost
+    port: 27017
+    database: platform
+
+
